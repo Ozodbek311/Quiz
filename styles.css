@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #222;
+    text-align: center;
+  }
+  
+  .answers {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .answer {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .answer:hover {
+    background-color: #d1ecf1;
+  }
+  
+  #next {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #next:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #28a745;
+    font-weight: bold;
+  }
+button1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+ 
+p {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(37, 50, 195, 0.1);
+    background: linear-gradient(rgb(15, 189, 216), blue);
+}
+
+p:hover {
+    background-color: rgba(32, 8, 136, 0.636);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
